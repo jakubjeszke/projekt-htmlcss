@@ -1,0 +1,229 @@
+<?xml version="1.0"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    
+    <xs:element name="root">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="author"/>
+                <xs:element ref="definition"/>
+                <xs:element ref="media"/>
+                <xs:element ref="history"/>
+                <xs:element ref="companies"/>
+                <xs:element ref="links"/>
+                <xs:element ref="media"/>
+                <xs:element ref="elevators"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="author" type="authorType"/>
+
+    <xs:complexType name="authorType">
+        <xs:group ref="authorGroup"/>
+        <xs:attribute ref="residence"/>
+        <xs:attribute ref="lang"/>
+        <xs:attribute ref="gender"/> 
+        <xs:attribute ref="bornIn"/>     
+    </xs:complexType>
+
+    <xs:attribute name="bornIn" type="bornInType"/>
+
+    <xs:simpleType name="bornInType">
+        <xs:union>
+            <xs:simpleType>
+                <xs:restriction base="shortStringType">
+                    <xs:whiteSpace value="replace"/>
+                </xs:restriction>
+            </xs:simpleType>
+            <xs:simpleType>
+                <xs:restriction base="longStringType">
+                    <xs:whiteSpace value="replace"/>
+                </xs:restriction>
+            </xs:simpleType>
+        </xs:union>
+    </xs:simpleType>
+
+    <xs:attribute name="gender" type="genderType"/>
+
+    <xs:simpleType name="genderType">
+        <xs:restriction base="xs:string">
+            <xs:pattern value="male|female"/>
+        </xs:restriction>
+    </xs:simpleType>
+
+    <xs:group name="authorGroup">
+        <xs:sequence>
+            <xs:element name="fname" type="shortStringType"/>
+            <xs:element name="surname" type="shortStringType"/>
+            <xs:element name="age" type="ageType"/>
+            <xs:element name="birthdate" type="xs:date"/>
+        </xs:sequence>
+    </xs:group>
+
+    <xs:simpleType name="ageType">
+        <xs:restriction base="xs:nonNegativeInteger">
+            <xs:minInclusive value="0"/>
+            <xs:maxInclusive value="130"/>
+        </xs:restriction>
+    </xs:simpleType>
+
+    <xs:element name="media">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="image" type="linkType" minOccurs="1" maxOccurs="unbounded"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:complexType name="linkType">
+		<xs:simpleContent>
+			<xs:extension base="xs:string">
+				<xs:attribute name="source" type="xs:anyURI" />
+			</xs:extension>
+		</xs:simpleContent>
+	</xs:complexType>
+
+    <xs:attribute name="residence" type="shortStringType"/>
+
+    <xs:simpleType name="shortStringType">
+        <xs:restriction base="xs:string">
+            <xs:maxLength value="20"/>
+        </xs:restriction>
+    </xs:simpleType>
+
+    <xs:attribute name="lang" >
+        <xs:simpleType>
+            <xs:restriction base="xs:string">
+                <xs:pattern value="[A-Z][A-Z]"/>
+            </xs:restriction>
+        </xs:simpleType>
+    </xs:attribute>
+
+    <xs:element name="definition">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="media"/>
+                <xs:element ref="title" maxOccurs="1"/>
+                <xs:element ref="text"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="text" type="xs:string"/>
+
+    <xs:element name="title" type="longStringType"/>
+
+    <xs:simpleType name="longStringType">
+        <xs:restriction base="xs:string">
+            <xs:minLength value="20"/>
+            <xs:maxLength value="100"/>
+        </xs:restriction>
+    </xs:simpleType>
+
+    <xs:element name="history" type="historyType"/>
+
+    <xs:complexType name="historyType">
+        <xs:sequence>
+            <xs:element ref="title" maxOccurs="1"/>
+            <xs:element ref="text"/>
+        </xs:sequence>
+    </xs:complexType>
+
+    <xs:element name="companies" type="companiesType"/>
+
+    <xs:complexType name="companiesType">
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+            <xs:element ref="title" maxOccurs="1"/>
+            <xs:element ref="country"/>
+        </xs:choice>
+    </xs:complexType>
+
+    <xs:element name="country" type="countryType"/>
+
+    <xs:complexType name="countryType">
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+            <xs:element ref="text"/>
+            <xs:element ref="province"/>
+            <xs:element ref="company"/>
+            <xs:element ref="elevator"/>
+        </xs:choice>
+        <xs:attribute ref="name" use="required"/>
+        <xs:attribute name="continent" use="required">
+            <xs:simpleType>
+                <xs:restriction base="xs:string">
+                    <xs:enumeration value="North_America"/>
+                    <xs:enumeration value="South_America"/>
+                    <xs:enumeration value="Africa"/>
+                    <xs:enumeration value="Europe"/>
+                    <xs:enumeration value="Asia"/>
+                    <xs:enumeration value="Australia"/>
+                </xs:restriction>
+            </xs:simpleType>
+        </xs:attribute>
+    </xs:complexType>
+
+    <xs:element name="province" type="provinceType"/>
+
+    <xs:complexType name="provinceType">
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+            <xs:element ref="city"/>
+            <xs:element ref="elevator"/>
+        </xs:choice>
+        <xs:attribute ref="name" use="required"/>
+        <xs:attribute name="kind" type="shortStringType" use="required"/>
+    </xs:complexType>
+
+    <xs:element name="city" type="cityType"/>
+
+    <xs:complexType name="cityType">
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+            <xs:element ref="elevator"/>
+        </xs:choice>
+        <xs:attribute ref="name"/>
+    </xs:complexType>
+
+    <xs:element name="elevator" type="elevatorType"/>
+
+    <xs:complexType name="elevatorType">
+        <xs:sequence>
+            <xs:element ref="text"/>
+        </xs:sequence>
+        <xs:attribute ref="name" use="required"/>
+    </xs:complexType>
+
+
+    <xs:element name="company" type="companyType"/>
+
+    <xs:complexType name="companyType">
+        <xs:sequence>
+            <xs:element ref="text"/>
+        </xs:sequence>
+        <xs:attribute ref="name"/>
+    </xs:complexType>
+
+    <xs:attribute name="name" type="nameType"/>
+
+    <xs:simpleType name="nameType">
+        <xs:union memberTypes="shortStringType longStringType"/>
+    </xs:simpleType>
+    
+    <xs:element name="elevators" type="elevatorsType"/>
+
+    <xs:complexType name="elevatorsType">
+        <xs:choice minOccurs="0" maxOccurs="unbounded" >
+            <xs:element ref="country"/>
+        </xs:choice>
+    </xs:complexType>
+
+    <xs:element name="links" type="linksType"/>
+    
+    <xs:complexType name ="linksType">
+		<xs:choice minOccurs="0" maxOccurs="unbounded">
+            <xs:element name="title" maxOccurs="1"/>
+			<xs:element ref="link"/>
+		</xs:choice>
+	</xs:complexType>
+
+    <xs:element name="link" type="linkType"/>
+
+</xs:schema>

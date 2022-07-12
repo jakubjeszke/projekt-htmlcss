@@ -1,0 +1,489 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="index.xsl"?>
+<root>
+    <author residence="Polish" lang="PL" gender="male" bornIn="Gdynia">
+        <fname>Jakub</fname>
+        <surname>Jeszke</surname>
+        <age>19</age>
+        <birthdate>2001-04-30</birthdate>
+    </author>
+    <definition>
+        <media>
+            <image source="img/banner.jpg">Grain elevator</image>
+        </media>
+        <title>What is a grain elevator?</title>
+        <text>
+            Grain elevator is an agrarian facility complex designed to stockpile or store grain. In grain trade, the term "grain elevator" also describes a tower containing a bucket elevator or a pneumatic conveyor, which scoops up grain from a lower level and deposits it in a silo or other storage facility.
+        </text>
+    </definition>
+    <media>
+        <image source="img/side1.jpg">side1</image>
+        <image source="img/side2.jpg">side2</image>
+        <image source="img/side3.jpg">side3</image>
+        <image source="img/side4.jpg">side4</image>
+        <image source="img/side9.jpg">side9</image>
+    </media>
+    <history>
+        <title>History of grain elevators</title>
+        <text>
+            Both necessity and the prospect of making money gave birth to the steam-powered grain elevator in Buffalo, New York, in 1843. Due to the completion of the Erie Canal in 1825, Buffalo enjoyed a unique position in American geography. It stood at the intersection of two great all-water routes; one extended from New York Harbor, up the Hudson River to Albany, and beyond it, the Port of Buffalo; the other comprised the Great Lakes, which could theoretically take boaters in any direction they wished to go (north to Canada, west to Michigan or Wisconsin, south to Toledo and Cleveland, or east to the Atlantic Ocean). All through the 1830s, Buffalo benefited tremendously from its position. In particular, it was the recipient of most of the increasing quantities of grain (mostly wheat) that was being grown on farms in Ohio and Indiana, and shipped on Lake Erie for trans-shipment to the Erie Canal. If Buffalo had not been there, or when things got backed up there, that grain would have been loaded onto boats at Cincinnati and shipped down the Mississippi River to New Orleans.
+            By 1842, Buffalo's port facilities clearly had become antiquated. They still relied upon techniques that had been in use since the European Middle Ages; work teams of stevedores use block and tackles and their own backs to unload or load each sack of grain that had been stored ashore or in the boat's hull. Several days, sometimes even a week, were needed to serve a single grain-laden boat. Grain shipments were going down the Mississippi River, not over the Great Lakes/Erie Canal system.
+            A merchant named Joseph Dart, Jr., is generally credited as being the one who adapted Oliver Evans' grain elevator (originally a manufacturing device) for use in a commercial framework (the trans-shipment of grain in bulk from lakers to canal boats), but the actual design and construction of the world's first steam-powered "grain storage and transfer warehouse" was executed by an engineer named Robert Dunbar. Thanks to the historic Dart's Elevator (operational on 1 June 1843), which worked almost seven times faster than its nonmechanized predecessors, Buffalo was able to keep pace with—and thus further stimulate—the rapid growth of American agricultural production in the 1840s and 1850s, but especially after the Civil War, with the coming of the railroads.
+            The world's second and third grain elevators were built in Toledo, Ohio, and Brooklyn, New York, in 1847. These fledgling American cities were connected through an emerging international grain trade of unprecedented proportions. Grain shipments from farms in Ohio were loaded onto ships by elevators at Toledo; these ships were unloaded by elevators at Buffalo that shipped their grain to canal boats (and, later, rail cars), which were unloaded by elevators in Brooklyn, where the grain was either distributed to East Coast flour mills or loaded for further shipment to England, the Netherlands, or Germany. This eastern flow of grain, though, was matched by an equally important flow of people and capital in the opposite direction, that is, from east to west. Because of the money to be made in grain production, and of course, because of the existence of an all-water route to get there, increasing numbers of immigrants in Brooklyn came to Ohio, Indiana, and Illinois to become farmers. More farmers meant more prairies turned into farmlands, which in turn meant increased grain production, which of course meant that more grain elevators would have to be built in places such as Toledo, Buffalo, and Brooklyn (and Cleveland, Chicago, and Duluth). Through this loop of productivity set in motion by the invention of the grain elevator, the United States became a major international producer of wheat, corn, and oats.
+            In the early 20th century, concern arose about monopolistic practices in the grain elevator industry, leading to testimony before the Interstate Commerce Commission in 1906. This led to several grain elevators being burned down in Nebraska, allegedly in protest.
+            Today, grain elevators are a common sight in the grain-growing areas of the world, such as the North_American prairies. Larger terminal elevators are found at distribution centers, such as Chicago and Thunder Bay, Ontario, where grain is sent for processing, or loaded aboard trains or ships to go further afield.
+            Buffalo, New York, the world's largest grain port from the 1850s until the first half of the 20th century, once had the United States' largest capacity for the storage of grain in over 30 concrete grain elevators located along the inner and outer harbors. While several are still in productive use, many of those that remain are presently idle. In a nascent trend, some of the city's inactive capacity has recently come back online, with an ethanol plant started in 2007 using one of the previously mothballed elevators to store corn. In the early 20th century, Buffalo's grain elevators inspired modernist architects such as Le Corbusier, who exclaimed, "The first fruits of the new age!" when he first saw them. Buffalo's grain elevators have been documented for the Historic American Engineering Record and added to the National Register of Historic Places. Currently, Enid, Oklahoma, holds the title of most grain storage capacity in the United States.
+            In farming communities, each town had one or more small grain elevators that served the local growers. The classic grain elevator was constructed with wooden cribbing and had nine or more larger square or rectangular bins arranged in 3 × 3 or 3 × 4 or 4 × 4 or more patterns. Wooden-cribbed elevators usually had a driveway with truck scale and office on one side, a rail line on the other side, and additional grain-storage annex bins on either side.
+            In more recent times with improved transportation, centralized and much larger elevators serve many farms. Some of them are quite large. Two elevators in Kansas (one in Hutchinson and one in Wichita) are half a mile long. The loss of the grain elevators from small towns is often considered a great change in their identity, and efforts to preserve them as heritage structures are made. At the same time, many larger grain farms have their own grain-handling facilities for storage and loading onto trucks.
+            Elevator operators buy grain from farmers, either for cash or at a contracted price, and then sell futures contracts for the same quantity of grain, usually each day. They profit through the narrowing "basis", that is, the difference between the local cash price, and the futures price, that occurs at certain times of the year.
+            Before economical truck transportation was available, grain elevator operators sometimes used their purchasing power to control prices. This was especially easy, since farmers often had only one elevator within a reasonable distance of their farms. This led some governments to take over the administration of grain elevators. An example of this is the Saskatchewan Wheat Pool. For the same reason, many elevators were purchased by cooperatives.
+            In the past, grain elevators sometimes experienced silo explosions. Fine powder from the millions of grains passing through the facility would accumulate and mix with the oxygen in the air. A spark could spread from one floating particle to the other, creating a chain reaction that would destroy the entire structure. (This dispersed-fuel explosion is the mechanism behind fuel-air bombs.) To prevent this, elevators have very rigorous rules against smoking or any other open flame. Many elevators also have various devices installed to maximize ventilation, safeguards against overheating in belt conveyors, legs, bearing, and explosion-proof electrical devices such as electric motors, switches, and lighting.
+            Grain elevators in small Canadian communities often had the name of the community painted on two sides of the elevator in large block letters, with the name of the elevator operator emblazoned on the other two sides. This made identification of the community easier for rail operators (and incidentally, for lost drivers and pilots). The old community name often remained on an elevator long after the town had either disappeared or been amalgamated into another community; the grain elevator at Ellerslie, Alberta, remained marked with its old community name until it was demolished, which took place more than 20 years after the village had been annexed by Edmonton.
+            One of the major historical trends in the grain trade has been the closure of many smaller elevators, and the consolidation the grain trade to fewer places and among fewer companies. For example, in 1961, 1642 "country elevators" (the smallest type) were in Alberta, holding 3,452,240 tonnes (3,397,720 long tons; 3,805,440 short tons) of grain. By 2010. only 79 "primary elevators" (as they are now known) remained, holding 1,613,960 tonnes (1,588,470 long tons; 1,779,090 short tons).In 2017, the United States had 25 billion US bushels (0.88 km3) of storage capacity, a growth of 25% in the previous decade.
+        </text>
+    </history>
+    <companies>
+        <title>Grain elevator companies</title>
+        <country name="Australia" continent="Australia">
+            <company name="ABB Grain">
+                <text>
+                ABB Grain was founded as a mutual company, the Australian Barley Board, in 1939, by barley growers in South Australia and Victoria; after demutualization, it was acquired by Viterra (see below) in 2009; Australian Bulk Alliance, a joint venture between ABB and Sumitomo, operates facilities in some areas.
+                </text>
+            </company>
+            <company name="CBH Group">
+                <text>
+                    CBH Group, a co-operative company, was established by grain growers in Western Australia, in 1933.
+                </text>
+            </company>
+            <company name="GrainCorp">
+                <text>
+                    GrainCorp was established by the government of New South Wales in 1917, as Government Grain Elevator, and was privatized in 1992.
+                </text>
+            </company>
+        </country>
+        <country name="Canada" continent="North_America">
+            <text>
+                All companies operating elevators in Canada are licensed by the Canadian Grain Commission.
+            </text>
+            <company name="Agricore United">
+                <text>
+                    Agricore United was taken over by Saskatchewan Wheat Pool in 2007.
+                </text>
+            </company>
+            <company name="Alberta Farmers' Co-operative Elevator Company">
+                <text>
+                    Alberta Farmers' Co-operative Elevator Company merged into United Grain Growers in 1917.
+                </text>
+            </company>
+            <company name="Alberta Pacific Grain Company">
+                <text>
+                    Alberta Pacific Grain Company was taken over by Federal Grain Co. in 1967.
+                </text>
+            </company>
+            <company name="Alberta Wheat Pool">
+                <text>
+                    Alberta Wheat Pool merged with Manitoba Pool Elevators in 1997.
+                </text>
+            </company>
+            <company name="Cargill">
+                <text>
+                    Cargill was established in 1865 by W.W. Cargill.
+                </text>
+            </company>
+            <company name="Federal Grain">
+                <text>
+                    Federal Grain was sold to the three provincial wheat pools in 1972.
+                </text>
+            </company>
+            <company name="Grain Growers' Grain Company">
+                <text>
+                    Grain Growers' Grain Company merged into United Grain Growers in 1917.
+                </text>
+            </company>
+            <company name="Lake of the Woods Milling Company">
+                <text>
+                    Lake of the Woods Milling Company
+                </text>
+            </company>
+            <company name="Manitoba Pool Elevators">
+                <text>
+                    Manitoba Pool Elevators merged with Alberta Wheat Pool in 1997.
+                </text>
+            </company>
+            <company name="Parrish &amp; Heimbecker">
+                <text>
+                    Parrish &amp; Heimbecker was established in 1909 by the two families of William Parrish and Norman G. Heimbecker.
+                </text>
+            </company>
+            <company name="Paterson Grain">
+                <text>
+                    Paterson Grain was established in 1908 as the N. M. Paterson Co.
+                </text>
+            </company>
+            <company name="Richardson International">
+                <text>
+                    Richardson International was established in 1857 by James Richardson; it is also known as Richardson Pioneer.
+                </text>
+            </company>
+            <company name="Saskatchewan Co-operative Elevator Company">
+                <text>
+                    Saskatchewan Co-operative Elevator Company was taken over by the Saskatchewan Wheat Pool in 1926.
+                </text>
+            </company>
+            <company name="Saskatchewan Wheat Pool">
+                <text>
+                    Saskatchewan Wheat Pool took over Agricore United in 2007 to form Viterra.
+                </text>
+            </company>
+            <company name="United Grain Growers">
+                <text>
+                    United Grain Growers was taken over by Agricore United in 2001.
+                </text>
+            </company>
+            <company name="Viterra">
+                <text>
+                    Viterra was established after the take-over of Agricore United by the Saskatchewan Wheat Pool.
+                </text>
+            </company>
+        </country>
+        <country name="Sweden" continent="Europe">
+            <text>
+                In Sweden, the vast majority of grain elevators belong to the Lantmännen co-operative movement, owned by grain-growing farmers.
+            </text>
+        </country>
+        <country name="United States" continent="North_America">
+            <company name="ADM Milling">
+                <text>
+                    ADM Milling
+                </text>
+            </company>
+            <company name="Cargill">
+                <text>
+                    Cargill
+                </text>
+            </company>
+            <company name="General Mills">
+                <text>
+                    General Mills
+                </text>
+            </company>
+            <company name="Monarch Engineering Co.">
+                <text>
+                    Monarch Engineering Co. (builder)
+                </text>
+            </company>
+            <company name="Montana Elevator Co.">
+                <text>
+                    Montana Elevator Co.
+                </text>
+            </company>
+            <company name="Perdue Agribusiness">
+                <text>
+                    Perdue Agribusiness
+                </text>
+            </company>
+            <company name="Scoular">
+                <text>
+                    Scoular
+                </text>
+            </company>
+            <company name="Smithfield Grain">
+                <text>
+                    Smithfield Grain
+                </text>
+            </company>
+            <company name="Southern States Cooperative">
+                <text>
+                    Southern States Cooperative
+                </text>
+            </company>
+            <company name="United Grain Growers">
+                <text>
+                    United Grain Growers
+                </text>
+            </company>
+        </country>
+    </companies>
+    <links>
+        <title>Useful links</title>
+        <link source="https://en.wikipedia.org/wiki/Grain_elevator">Wikipedia article</link>
+        <link source="https://www.sciencedirect.com/topics/agricultural-and-biological-sciences/grain-elevator">ScienceDirect article</link>
+        <link source="https://www.britannica.com/topic/grain-elevator">Britannica dictionary entrance</link>
+    </links>
+    <media>
+        <image source="img/side5.jpg">side5</image>
+        <image source="img/side6.jpg">side6</image>
+        <image source="img/side7.jpg">side7</image>
+        <image source="img/side8.jpg">side8</image>
+    </media>
+    <elevators>
+        <country name="Canada" continent="North_America">
+            <province name="Alberta" kind="province">
+                <elevator name="Acadia Valley">
+                    <text>Prairie Elevator Museum, former Alberta Wheat Pool converted into a tea house and museum</text>
+                </elevator>
+                <elevator name="Alberta Central Railroad Museum">
+                    <text>Former Alberta Wheat Pool, second-oldest standing grain elevator in Alberta, moved from Hobbema</text>
+                </elevator>
+                <elevator name="Andrew">
+                    <text>Former Alberta Wheat Pool, restored into a museum</text>
+                </elevator>
+                <elevator name="Castor">
+                    <text>Former Alberta Pacific, restored into a museum</text>
+                </elevator>
+                <elevator name="Big Valley">
+                    <text>Alberta Wheat Pool used as a museum complete with a train station and roundhouse</text>
+                </elevator>
+                <elevator name="Edmonton">
+                    <text>Ritchie Mill, former flour mill converted into restaurants, law offices, and condominiums</text>
+                </elevator>
+                <elevator name="Ellis Bird Farm">
+                    <text>Built in 1937, oldest standing seed elevator in Alberta</text>
+                </elevator>
+                <elevator name="Esther">
+                    <text>Former Alberta Wheat Pool, restored into a museum</text>
+                </elevator>
+                <elevator name="Haselwood Mill">
+                    <text>Alberta's oldest seed-cleaning mill, second on the site, privately owned, not protected, operated from the 1930s to 1960s near Bittern Lake, Alberta</text>
+                </elevator>
+                <elevator name="Heritage Acres Farm Museum">
+                    <text>Restored United Grain Growers elevator moved from Brocket</text>
+                </elevator>
+                <elevator name="Heritage Park Historical Village">
+                    <text>Former Security Elevator Co. Ltd. moved from Shonts</text>
+                </elevator>
+                <elevator name="Kinuso">
+                    <text>United Grain Growers with original UGG logo</text>
+                </elevator>
+                <elevator name="Leduc">
+                    <text>Former Alberta Wheat Pool saved from demolition now a museum</text>
+                </elevator>
+                <elevator name="Lougheed">
+                    <text>Former Pioneer Elevator,now part of the Iron Creek Museum</text>
+                </elevator>
+                <elevator name="Mayerthorpe">
+                    <text>1966 Federal Grain Co., now an interpretive center</text>
+                </elevator>
+                <elevator name="Meeting Creek">
+                    <text>A refurbished Alberta Wheat Pool, Pacific Grain elevator and CN train station</text>
+                </elevator>
+                <elevator name="Nanton">
+                    <text>Canadian Grain Elevator Discovery Centre, three elevators saved from demolition and preserved to educate visitors about the town's, and Alberta's, agricultural history</text>
+                </elevator>
+                <elevator name="Radway">
+                    <text>Krause Milling Co. restored into a museum</text>
+                </elevator>
+                <elevator name="Raley">
+                    <text>Oldest standing grain elevator on its original site in Alberta, built in 1909, maintaining many of its original features</text>
+                </elevator>
+                <elevator name="Rowley">
+                    <text>United Grain Growers and Alberta Wheat Pool elevators saved from demolition by locals and now fully restored</text>
+                </elevator>
+                <elevator name="Scandia">
+                    <text>Scandia Eastern Irrigation District Museum, 1920s Alberta Wheat Pool and stockyard now a museum</text>
+                </elevator>
+                <elevator name="South Peace Centennial Museum">
+                    <text>United Grain Growers moved from Albright</text>
+                </elevator>
+                <elevator name="Spruce Grove">
+                    <text>Spruce Grove Grain Elevator Museum, former Alberta Wheat Pool, now a museum</text>
+                </elevator>
+                <elevator name="St. Albert">
+                    <text>St. Albert Grain Elevator Park, a 1906 Alberta Grain Co. and 1929 Alberta Wheat Pool Elevators now restored as a historic park</text>
+                </elevator>
+                <elevator name="Stettler">
+                    <text>A 1920 Parrish and Heimbecker grain elevator, feed mill, and coal shed, last to stand in Alberta, now protected and restored as a museum</text>
+                </elevator>
+                <elevator name="Ukrainian Cultural Heritage Village">
+                    <text>former Home Grain Co. moved from Bellis</text>
+                </elevator>
+            </province>
+            <province name="British Columbia" kind="province">
+                <elevator name="Creston">
+                    <text>Former Alberta Wheat Pool (1936) and United Grain Growers (1937) elevators that still stand tall on the edge of the downtown core in the middle of the Creston Valley</text>
+                </elevator>
+                <elevator name="Dawson Creek">
+                    <text>Restored and refurbished as a community art gallery</text>
+                </elevator>
+            </province>
+            <province name="Manitoba" kind="province">
+                <elevator name="Inglis">
+                    <text>	Inglis elevator row, last surviving elevator row in Manitoba with a total of four elevators. Now designated and protected as a National Historic Site of Canada</text>
+                </elevator>
+                <elevator name="Niverville">
+                    <text>Western Canada's first grain elevator, erected by William Hespeler in 1879</text>
+                </elevator>
+                <elevator name="Plum Coulee	">
+                        <text>grain elevator refurbished as a restaurant and meeting rooms</text>
+                    </elevator>
+            </province>
+            <province name="Ontario" kind="province">
+                <elevator name="Scugog">
+                    <text>Canada's oldest grain elevator and the second oldest in all of the Americas</text>
+                </elevator>
+                <elevator name="Stiver Mills">
+                    <text>one of a few surviving grain elevators in Ontario, built 1916 and used until 1968 and now a farmers' market</text>
+                </elevator>
+            </province>
+            <province name="Quebec" kind="province">
+                <elevator name="Silo No. 5, Montreal">
+                    <text>This grain elevator was completed in four stages from 1906 to 1959 and was abandoned in 1994. With the demolition of Silo No. 1 and Silo No. 2, Silo No. 5 is now, along with the Old Port’s conveyor pier tower, the last vestige of Old Montreal’s 20th-century harbour panorama.</text>
+                </elevator>
+            </province>
+            <province name="Saskatchewan" kind="province">
+                <elevator name="Edam">
+                    <text>Former Saskatchewan Wheat Pool now a museum</text>
+                </elevator>
+                <elevator name="Gravelbourg">
+                    <text>Former Saskatchewan Wheat Pool saved from demolition and now a museum</text>
+                </elevator>
+                <elevator name="Indian Head">
+                    <text>experimental farm grain elevator refurbished as a Café, coffee house</text>
+                </elevator>
+                <elevator name="Sukanen Ship Pioneer Village and Museum">
+                    <text>Former Victoria – McCabe moved from Mawer</text>
+                </elevator>
+                <elevator name="Val Marie">
+                    <text>Former Federal and 1967 Centennial Saskatchewan Wheat Pool now museums</text>
+                </elevator>
+                <elevator name="North Battleford Western Development Museum">
+                    <text>Former Saskatchewan Wheat Pool moved from Keatley</text>
+                </elevator>
+                <elevator name="Weyburn Inland Terminal">
+                    <text>First large farmer owned inland terminal in Canada, constructed in 1975 located near Weyburn</text>
+                </elevator>
+                <elevator name="Wood Mountain">
+                    <text>Former Saskatchewan Wheat Pool No. 706, demolished April 22, 2014</text>
+                </elevator>
+            </province>
+        </country>
+        <country name="South Africa" continent="Africa">
+            <elevator name="Port of Cape Town">
+                <text>Once the tallest building in Cape Town, now restored to become the Zeitz Museum of Contemporary Art Africa</text>
+            </elevator>
+        </country>
+        <country name="Switzerland" continent="Europe">
+            <elevator name="Swissmill Tower in upper Limmat Valley in the Canton of Zürich">
+                    <text>118 metres (387 ft) high, rebuilt by April 2016</text>
+                </elevator>
+        </country>
+        <country name="United States" continent="North_America">
+            <province name ="Maryland" kind="state">
+                <city name="Baltimore">
+                    <elevator name="Baltimore and Ohio Locust Point Grain Terminal Elevator">
+                        <text>One of the largest grain terminal elevators to be constructed in the early 20th century, with a capacity of 3.8 billion US bushels (130,000,000 m3) in Baltimore, Maryland Silo Point, currently being reconstructed from a grain elevator to a condominium located in Baltimore, Maryland</text>
+                    </elevator>
+                </city>
+            </province>
+            <province name="New York" kind="state">
+                <city name="Buffalo">
+                    <elevator name="American Grain Complex	">
+                        <text>Built between 1905 and 1931</text>
+                    </elevator>
+                    <elevator name="Cargill Pool Elevator">
+                        <text>Previously named the Saskatchewan Cooperative Elevator was built in 1925 offered a total holding capacity of 2.1 million US bushels (74,000 m3) in 135 bins</text>
+                    </elevator>
+                    <elevator name="Cargill Superior elevator">
+                        <text>Marked as Cargill "S", built between 1914 and 1925</text>
+                    </elevator>
+                    <elevator name="Concrete-Central Elevator">
+                        <text>Buffalo, New York – The largest transfer elevator in the world at the time of its completion in 1917</text>
+                    </elevator>
+                    <elevator name="Connecting Terminal">
+                        <text>Clearly visible from across canalside and the Commercial Slip the structure is now used for boat storage</text>
+                    </elevator>
+                    <elevator name="General Mills Plant">
+                        <text>Or "The Frontier Elevator" General Mills Buffalo factory is a large scale grain mill and cereal production facility, most notably producing Gold Medal brand flour, Wheaties, Cheerios, and other General Mills brand cereals</text>
+                    </elevator>
+                    <elevator name="Great Northern Elevator">
+                        <text>Built in 1897 by the Great Northern Railroad</text>
+                    </elevator>
+                    <elevator name="Lake &amp; Rail Grain Elevator">
+                        <text>Part of the "elevator alley" – The Lake and Rail produces over 2,700,00 pounds of flour a day</text>
+                    </elevator>
+                    <elevator name="Marine A grain elevator">
+                        <text>Also part of the "elevator alley" and across from the Lake &amp; Rail Grain Elevator</text>
+                    </elevator>
+                    <elevator name="The Standard Elevator">
+                        <text>Named after the Standard Milling Company and built in 1926</text>
+                    </elevator>
+                    <elevator name="Wheeler Elevator">
+                        <text>Also known as the Agway/GLF East Work House, built in 1908</text>
+                    </elevator>
+                    <elevator name="Wollenberg Grain and Seed Elevator">
+                        <text>Wooden "country style" elevator formerly located in Buffalo, New York; destroyed by fire in October 2006</text>
+                    </elevator>
+                </city>
+                <city name="Wassaic">
+                    <elevator name="Maxon Mills">
+                        <text>Built in 1954 and remained in active use as a feed elevator until the 1980s. The mill was placed on the New York State Register of Historic Places and restored in the early 2000s. It is currently used as a contemporary art exhibition space by The Wassaic Project</text>
+                    </elevator>
+                </city>
+            </province>
+            <province name="Illinois" kind="state">
+                <elevator name="Armour's Warehouse">
+                    <text>Constructed in 1861–62 on the north bank of the Illinois-Michigan Canal in Seneca, Illinois</text>
+                </elevator>
+            </province>
+            <province name="Iowa" kind="state">
+                <elevator name="Bouton, Iowa's grain elevator">
+                    <text>Owned by Susan (formerly Flanery) &amp; Michael Chris Brelsford, photo shoot location for the 40th Anniversary Sports Illustrated Swimsuit Issue (2004)</text>
+                </elevator>
+            </province>
+            <province name="Minnesota" kind="state">
+                <elevator name="Northwestern Consolidated Milling Company Elevator A">
+                    <text>Also known as the Ceresota Building and "The Million Bushel Elevator", was a receiving and public grain elevator built by the Northwestern Consolidated Milling Company in 1908 in Minneapolis, Minnesota</text>
+                </elevator>
+                <elevator name="Peavey–Haglin Experimental Concrete Grain Elevator">
+                    <text>St. Louis Park, Minnesota, built in 1899–1900</text>
+                </elevator>
+                <elevator name="Saint Paul Municipal Grain Terminal">
+                    <text>In St. Paul, Minnesota, on the NRHP</text>
+                </elevator>
+            </province>
+            <province name="North Dakota" kind="state">
+                <elevator name="North Dakota Mill and Elevator">
+                    <text>Largest flour mill in the United States, located in Grand Forks, North Dakota</text>
+                </elevator>
+            </province>
+            <province name="Oklahoma" kind="state">
+                <elevator name="Bricktown, Oklahoma City">
+                    <text>Oklahoma is home to OKC Rocks, a former grain elevator that has been turned into an indoor rock-climbing facility located in Oklahoma City.</text>
+                </elevator>
+                <elevator name="Ingersoll Tile Elevator">
+                    <text>Elevator constructed of hollow red clay tiles, located in Ingersoll, Oklahoma</text>
+                </elevator>
+            </province>
+            <province name="Pennsylvania" kind="state">
+                <city name="Philadelphia">
+                    <elevator name="Reading Company Grain Elevator">
+                        <text>Export elevator in Philadelphia converted into offices</text>
+                    </elevator>
+                </city>
+            </province>
+            <province name="South Dakota" kind="state">
+                <elevator name="Zip Feed Tower">
+                    <text>Tallest occupiable structure in South Dakota from its construction in 1956–1957 until its demolition in December 2005</text>
+                </elevator>
+            </province>
+            <province name="Virginia" kind="state">
+                <elevator name="Sewell's Point grain elevator">
+                    <text>Export elevator built by the city of Norfolk in 1922 to help the port of Norfolk better compete with other East Coast ports by providing a publicly owned facility to store and load grain at reasonable rates. It was sold to the Norfolk and Western railroad in 1929, and leased from N&amp;W by Continental grain in 1952. The elevator originally held 750,000 bushels but was later expanded to 3.5 million bushels. The elevator was taken over by Cargill in the late 1980s and abandoned around the turn of the 21st century. The elevator was demolished by Norfolk Southern in 2008</text>
+                </elevator>
+                <elevator name="Southern States silos">
+                    <text>A grain elevator in Richmond, Virginia originally built in the 1940s by Cargill and currently leased by Perdue Farms is the tallest structure south of the James River in the city of Richmond. The elevator was the site of the 3rd RVA Street Art Festival.</text>
+                </elevator>
+            </province>
+            <province name="Wisconsin" kind="state">
+                <elevator name="Chase Grain Elevator">
+                    <text>Tile grain elevator built in 1922. Sun Prairie, Wisconsin Placed on the National Register of Historic Places in 2010. It is the last remaining tile elevator in Wisconsin.</text>
+                </elevator>
+            </province>
+            <province name="Wyoming" kind="state">
+                <elevator name="Sheridan Flouring Mills, Inc.">
+                    <text>An industrial complex in Sheridan, Wyoming</text>
+                </elevator>
+            </province>
+        </country>
+    </elevators>
+</root>

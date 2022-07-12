@@ -1,0 +1,65 @@
+<!ELEMENT root (author, definition, media, history, companies, links, media, elevators)>
+
+    <!ENTITY % title_content "title">
+    <!ENTITY % text_with_title "title, text">
+    <!ENTITY % first_name SYSTEM "external.ent">
+    
+    <!ELEMENT author (fname, surname, age, birthdate)>
+        <!ATTLIST author
+            residence CDATA #REQUIRED
+            lang CDATA "EN"
+            gender CDATA #IMPLIED
+            bornIn CDATA #IMPLIED>
+        <!ELEMENT fname (#PCDATA)>
+        <!ELEMENT surname (#PCDATA)>
+        <!ELEMENT age (#PCDATA)>
+        <!ELEMENT birthdate (#PCDATA)>
+
+    <!ELEMENT definition (media, %text_with_title;)>
+    
+    <!ELEMENT history (%text_with_title;)>
+
+    <!ELEMENT companies (%title_content;, country+)>
+
+    <!ELEMENT country (text?, (company*|elevator*|province*))>
+        <!ATTLIST country
+            name CDATA #REQUIRED
+            continent (Europe|Australia|South_America|North_America|Africa|Asia) #REQUIRED>
+        <!ELEMENT company (text)>
+            <!ATTLIST company
+                name CDATA #REQUIRED>
+        <!ELEMENT elevator (text)>
+            <!ATTLIST elevator
+                name CDATA #REQUIRED>
+        <!ELEMENT province (city+|elevator+)>
+            <!ATTLIST province
+                name CDATA #REQUIRED
+                kind CDATA #IMPLIED>
+            <!ELEMENT city (elevator+)>
+                <!ATTLIST city
+                    name CDATA #REQUIRED>
+
+    <!ELEMENT links (title?, link+)>
+        <!ELEMENT link (#PCDATA)>
+            <!ATTLIST link
+                source CDATA #REQUIRED>
+
+    <!ELEMENT elevators (country+)>
+
+    <!ELEMENT title (#PCDATA)>
+
+    <!ELEMENT text (#PCDATA)>
+
+    <!ELEMENT media (image+)>
+                <!ELEMENT image (#PCDATA)>
+
+    <!ENTITY bannerimg "img/banner.jpg">
+    <!ENTITY side1 "img/side1.jpg">
+    <!ENTITY side2 "img/side2.jpg">
+    <!ENTITY side3 "img/side3.jpg">
+    <!ENTITY side4 "img/side4.jpg">
+    <!ENTITY side5 "img/side5.jpg">
+    <!ENTITY side6 "img/side6.jpg">
+    <!ENTITY side7 "img/side7.jpg">
+    <!ENTITY side8 "img/side8.jpg">
+    <!ENTITY side9 "img/side9.jpg">
